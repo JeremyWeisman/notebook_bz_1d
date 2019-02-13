@@ -3,9 +3,9 @@
 FC = gfortran
 LD = gfortran
 
-FCFLAGS = -J ./obj -I/usr/local/miniconda3/envs/mumps_seq/include
+FCFLAGS = -J ./obj -I/srv/conda/include
 LDFLAGS = 
-LIBS = -L/usr/local/miniconda3/envs/mumps_seq/lib -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch
+LIBS = -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch
 
 EXE = run/bz_1d
 
