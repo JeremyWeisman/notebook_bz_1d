@@ -5,7 +5,7 @@ LD = gfortran
 
 FCFLAGS = -J ./obj -I/srv/conda/include
 LDFLAGS = 
-LIBS = -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch
+LIBS = -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch -lpthread
 
 EXE = run/bz_1d
 
