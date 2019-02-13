@@ -40,7 +40,6 @@ $(OBJDIR):
 $(RUNDIR):
 	@echo "Creation du repertoire $@"
 	@mkdir -p $@
-	cp src/utils/input.dat $@
 	@echo
 
 $(EXE): $(OBJS)
