@@ -1,8 +1,4 @@
 name: bz_1d
-channels:
-  - conda-forge
 dependencies:
     - numpy
     - bokeh
-    - gcc
-    - mumps
