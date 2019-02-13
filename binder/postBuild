@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd fortran/bz_1d
+make
