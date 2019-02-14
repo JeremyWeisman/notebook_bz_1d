@@ -5,5 +5,4 @@ channels:
 dependencies:
     - numpy
     - bokeh
-    - gcc
     - mumps
