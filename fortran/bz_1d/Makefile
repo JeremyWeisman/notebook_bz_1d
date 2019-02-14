@@ -1,11 +1,11 @@
 # Makefile
 
-FC = gfortran
-LD = gfortran
+FC = x86_64-conda_cos6-linux-gnu-gfortran
+LD = x86_64-conda_cos6-linux-gnu-gfortran
 
 FCFLAGS = -J ./obj -I/srv/conda/include
 LDFLAGS = 
-LIBS = -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch -lpthread
+LIBS = -L/srv/conda/lib -ldmumps -lmumps_common -lpord -lmpiseq -lmetis -lblas -lesmumps -lscotch -lpthread
 
 EXE = run/bz_1d
 
